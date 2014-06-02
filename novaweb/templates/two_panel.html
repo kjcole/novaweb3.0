@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block base_content %}
+  <div id="left_pan">
+    {% placeholder left_panel_content %}
+  </div>
+  <div id="right_pan">
+    {% placeholder right_panel_content %}
+  </div>
+{% endblock %}

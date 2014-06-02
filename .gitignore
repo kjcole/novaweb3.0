@@ -1,0 +1,6 @@
+/venv/
+/static/
+project.db
+*.pyc
+*.swp
+*.swo

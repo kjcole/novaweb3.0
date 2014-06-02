@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block base_content %}
+        <div class="main">
+       <p>You have questions? We may have answers!</p>
+        </div>
+        	
+    <div class="maincontent">    
+<form action="" enctype="multipart/form-data" method="post">{% csrf_token %}
+    {% for hidden in form.hidden_fields %}
+    {{ hidden }}
+    {% endfor %}
+    {% for field in form.visible_fields %}
+        <div class="fieldWrapper">
+          {{ field.label_tag }}
+          {{ field }}
+            {% if field.errors %}
+            <div class="alert alert-error">
+              <strong>{% for error in field.errors %}{{ error }}{% endfor %}</strong>
+            </div>
+          {% endif %}
+        </div>
+    {% endfor %}
+    <p><input type="submit" value="Submit" /></p>
+</form>
+	</div>
+    
+    
+    
+    
+</div>
+{% endblock %}

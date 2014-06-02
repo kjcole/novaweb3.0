@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	margin:0 auto;
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 1.0em;
+}
+
+.wrapper {
+	width: 100%;
+	
+}
+
+.logoblock {
+	width:100%;	
+	display:block;
+	clear:both;
+
+	
+}
+
+.logoblock img{
+	width:25%;	
+	float:left;
+	margin-left:4%;
+	margin-top:2%;
+}
+
+/*Navigation bar and links*/
+
+nav {
+	
+	margin-top:7.5%;
+	width:60%;
+	text-decoration:none;
+	
+	display:inline;
+	float:left;
+	clear:right;
+}
+
+nav h2 a {
+		
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 0.875em;
+	color:#2D3A87;
+	text-decoration:none;
+	float:left;
+	margin-top:1%;
+	margin-left:4%;
+	
+}
+
+nav h2 a:hover {	
+
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 0.875em;
+	text-decoration:none;
+	color: #546BD1;
+	
+}
+
+/*Formatting for boxes*/
+
+.boxes {
+	
+	width: 100%;
+	margin-bottom: 10%;
+	margin-top:2%;
+	clear:both;
+}
+
+.boxes .col1, .boxes .col2, .boxes .col3, .boxes .col4 {
+	
+	width:25%;
+	float:left;	
+	padding:2%;
+	margin-left:4%;
+
+}
+
+.boxes .col1 img, .boxes .col2 img, .boxes .col3 img, .boxes .col4 img {
+	
+	width:100%;
+	margin-bottom:10%;
+	display:block;	
+}
+
+
+
+.boxes .col1 h2, .boxes .col2 h2, .boxes .col3  h2, .boxes .col4  h2  {
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 1.4em;
+	color: #2D3987;
+	line-height: 1.0;
+}
+
+
+/*Main Text Appearance*/
+
+h1 {
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;	
+	font-size: 1.5em;	
+	color: #2D3A87;
+	font-weight:bold;
+	
+}
+
+h2 {
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 1.25em;
+	color: ##2D3A87;
+	font-weight: bold;	
+	
+}
+
+h3 {
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;	
+	font-size: 1.10em;
+	color: #2D3A87;	
+	font-weight: bold;
+	
+}
+
+p {
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 0.875em;
+	color: #000;
+	line-height:1.2em;
+	text-align:justify;
+	
+}
+
+a {	
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 1.10em;
+	color: #2D3A87;
+	
+}
+
+a:hover {
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 1.10em;	
+	color: #0E1B51;
+	
+}
+
+a:visited {
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 1.10em;	
+	color: #546BD1;
+	
+}
+
+
+.quote {
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;	
+	font-size: 1.5em;	
+	color: #2D3A87;
+	font-style:italic;
+	
+}
+
+.col1 .readmore a { 
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 0.850em;
+	color: #2D3A87;
+	float:right;
+	
+}
+
+.col2 .readmore a { 
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 0.850em;
+	color: #2D3A87;
+	float:right;
+	
+}
+
+.col3 .readmore a { 
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 0.850em;
+	color: #2D3A87;
+	float:right;
+	
+}
+
+.col4 .readmore a { 
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 0.850em;
+	color: #2D3A87;
+	float:right;
+	
+}
+
+.col1 .readmore a:visited, .col2 .readmore a:visited, .col3 .readmore a:visited, .col4 .readmore a:visited {
+	
+	float:right;
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 0.850em;
+	color: #2D3A87;
+	
+}
+
+.main {
+	width:60%;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top:5%;
+	float:left;
+	display:block;
+	
+}
+
+.main ul li {
+	list-style:disc;
+	margin-left:5%;
+	margin-top:1%;
+	
+		
+}
+
+.maincontent {
+	width:60%;
+	margin-left:5%;	
+}
+
+body > div.wrapper > div.maincontent > form{
+	width: 10%;
+}
+
+
+/*footer .colft1, .colft2, .colft3, .colft4 p {
+	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 0.875em;
+	color: #000;
+	line-height:0.9em;
+	margin-top:10%;
+	
+}*/	
+
+/*footer .colft1, .colft2, .colft3, .colft4 {
+	width:16%;
+	float:left;	
+	padding:1%;
+	margin-left:3%;
+	
+}*/
+
+footer {
+	
+	width:100%;
+	margin:0 auto;
+	background-color:#c4d7fd;
+	float:left;
+	margin-top:5%;
+	
+}	
+
+.footernav {
+	
+	width:100%;	
+}
+
+ul li {
+	
+	list-style:none;	
+}
+
+.footernav ul li h2 a {
+	
+	float:left;	
+	font-family: "Helvetica", Gotham, Helvetica Neue, Arial, sans-serif;
+	font-size: 0.850em;
+	text-decoration:none;
+	margin-left:4%;	
+	margin-bottom:2%;
+	margin-top:2%;
+}
+
+/*social media icons*/
+.smedia {
+    width: 5%;
+}
+
+body > footer > div > ul > li {
+    display: inline;
+}
+
+#copyrt {
+    font-size: 65%;
+}

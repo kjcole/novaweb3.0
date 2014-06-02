@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load cms_tags %}
+
+{% block base_content %}
+  <ul class="rslides rslides1">
+    {% placeholder rslides %}
+  </ul>
+  <div class="boxes">
+    <div class="col1">
+      {% placeholder Column_1 %}				
+	</div>
+    <div class="col2">
+      {% placeholder Column_2 %}
+	</div>
+	<div class="col3">
+      {% placeholder Column_3 %}
+    </div>
+  </div>  
+{% endblock %}

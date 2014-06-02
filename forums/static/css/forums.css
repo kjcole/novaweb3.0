@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+	font-size:1.5em;
+	font-weight:bold;
+	color:#881819;
+	font-family: "trajan-pro-3",sans-serif;	
+}
+
+h2 {
+	font-size:1.35em;
+	font-weight:bold;
+	color:#881819;
+	font-family: "trajan-pro-3",sans-serif;	
+}
+
+h3 {
+	font-size:1.125em;
+	font-weight:bold;
+	color:#881819;
+	font-family: "trajan-pro-3",sans-serif;	
+}
+
+p {
+	font-family:arial;	
+}
+
+article {
+	width:75%;
+	margin-left:25%;
+	margin-right:25%;
+	margin-bottom:10%;
+	padding:2%;
+}
+
+article img {
+	width:50%;
+	margin:2%;
+}
+
+article a {
+	color:#881819;
+}
