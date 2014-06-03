@@ -113,7 +113,7 @@ class PostCreation(generic.CreateView):
 class DocumentForm(forms.ModelForm):
     class Meta:
       model = Document
-      exclude = ("poster")
+      exclude = ("poster",)
 
 class DocumentSubmission(generic.CreateView):
     form_class = DocumentForm

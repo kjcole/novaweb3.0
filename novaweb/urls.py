@@ -9,11 +9,12 @@ from django.views.generic import RedirectView
 admin.autodiscover()
 
 urlpatterns = i18n_patterns('',
-    url(r'^admin/', include(admin.site.urls)),  # NOQA
     url(r'^$', RedirectView.as_view(url="/cms/")),
+    url(r'^admin/', include(admin.site.urls)),  # NOQA
+    url(r'^cms/', include('cms.urls')),
+    url(r'^forums/', include('forums.urls')),
     url(r'^sitemap\.xml$', 'django.contrib.sitemaps.views.sitemap',
         {'sitemaps': {'cmspages': CMSSitemap}}),
-    url(r'^cms/', include('cms.urls')),
 
 )
 
