@@ -32,6 +32,11 @@ h2 {display:inline;}
     float: left;
 }
 
+.pro-image .plugin_picture img {
+    height: 96px;
+    width: 96px;
+}
+
 body > div.wrapper > div.main > div > div.bio {
     display: inline;
 }
