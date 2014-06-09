@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+{% load cms_tags sekizai_tags %}
+{% load staticfiles %}
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>NOVA Web Development</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<link href="{{ STATIC_URL }}css/global.css" rel="stylesheet" type="text/css">
+<link href="{{ STATIC_URL }}css/generic.css" rel="stylesheet" type="text/css">
+<link href="{{ STATIC_URL }}css/responsiveslides.css" rel="stylesheet" type="text/css">
+{% render_block "css" %}
+</head>
+
+<body>
+{% cms_toolbar %}
+
+<div class="wrapper">
+		
+        <div class="logoblock">
+    		<img src="{{ STATIC_URL }}images/nwd_logo_clear.png">
+
+ 			<nav>
+        		<h2><a href="/">Home</a></h2>
+		  		<h2><a href="/cms/about/">Who We Are</a></h2>
+          		<!--<h2><a href="staff.html">Staff</a></h2>-->
+		  		<h2><a href="/cms/services/">What We Do</a></h2>
+                <h2><a href="/cms/portfolio/">Portfolio</a></h2>
+         		<h2><a href="/forums/contact/">Contact Us</a></h2>
+  			</nav>
+            
+		</div>
+        {% block base_content %}{% endblock %}
+        {% render_block "js" %}
+</div>
+
+<footer>
+	
+    <div class="footernav">
+    
+    	<ul>
+            <li><a href="https://plus.google.com/100407922109428335015" rel="publisher"><img class="smedia" src="{{ STATIC_URL }}images/google-sociocon.png" alt="google+"></a></li>
+            <li><a href="https://twitter.com/NOVAWebDevelopm"><img class="smedia" src="{{ STATIC_URL }}images/twitter-sociocon.png" alt="twitter"></a></li>
+            <li><a href="/cms/member-sites/"><img class="smedia" src="{{ STATIC_URL }}images/team-sociocon.png" alt="team"></a></li>
+         </a></ul>	 
+        <p id="copyrt">NOVA Web Development © 2014, All Rights Reserved<p>   
+  	</a></div><a href="/">
+	
+</a></footer><a href="/">
+</a></div><a href="/">
+
+
+</a></body>
+<!--
+Insert the code below into the HTML by clicking the HTML button.
+
+<div class="profile">
+<div class="pro-image">Use Insert Image here</div>
+<div class="bio"><span style="font-size: 120%; font-weight: bold; text-decoration: underline;">Place Name Here</span> Bio about yourself here</div>
+</div>
+--!>
+</html>
