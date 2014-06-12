@@ -2,24 +2,27 @@
 {% load cms_tags %}
 {% block title %}{% page_attribute 'title' %}{% endblock title %}
 {% block content %}
-<div class="inner">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
+
+      <h1>{% page_attribute 'title' %}</h1>
+      <section class="wide">
+      <div id="slides">
         {% placeholder rslides %}
       </div>
-    </div>
-    <div class="row">
-      <div class="col-md-4">
-        {% placeholder Column_1 %}        
-      </div>
-      <div class="col-md-4">
-        {% placeholder Column_2 %}        
-      </div>
-      <div class="col-md-4">
-        {% placeholder Column_3 %}        
-      </div>
-    </div>
-  </div>
-</div>
+        {% placeholder central_text %}
+
+      </section>
+
+      <section class="tricol">
+        {% placeholder col_1 %}
+      </section>
+
+      <section class="tricol">
+        {% placeholder col_2 %}
+      </section>
+
+      <section class="tricol">
+        {% placeholder col_3 %}
+      </section>
+
+      <br style="clear:both;" />
 {% endblock %}
