@@ -13,7 +13,7 @@
   <link rel="author" title="[Kevin Cole]" href="/~kjcole/" />
   <link rel="Search" title="[Search]" href="/sitemap.html" />
   <title>{% block title %}NOVA Web Development{% endblock title %}</title>
-  <script src="/lib/d3.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
  </head>
 
 <body itemscope="" itemtype="http://schema.org/WebPage">
@@ -90,9 +90,9 @@
     </section>
     </footer>
 
-    <script type="text/javascript">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    
     {% render_block "js" %}
-    </script>
 
 </body>
 </html>
